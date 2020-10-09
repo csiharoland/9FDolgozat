@@ -1,0 +1,55 @@
+C:\Users\tanulo>cd ..
+C:\Users>cd..
+C:\>cd 9f
+C:\9F>cd csiha roland
+git clone https://github.com/csiharoland/9FDolgozat.git
+C:\9F\Csiha Roland>cd 9Fdolgozat
+git config --global user.name "csiharoland"
+git config --global user.email "rolandcsiha@gmail.com"
+(ezt írtam)
+
+
+
+
+
+
+
+C:\9F\Csiha Roland\9FDolgozat>copy con utasitasok.txt
+git checkout --állománynév
+git diff állománynév,git diff HEAD,git diff --staged,git diff --cached
+git reset állománynév
+git pull origin master^Z
+        1 file(s) copied.
+
+C:\9F\Csiha Roland\9FDolgozat>git add utasitasok.txt
+
+C:\9F\Csiha Roland\9FDolgozat>git commit -m "Csiha Roland"
+[main a5fb0f5] Csiha Roland
+ 1 file changed, 4 insertions(+)
+ create mode 100644 utasitasok.txt
+
+C:\9F\Csiha Roland\9FDolgozat>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/csiharoland/9FDolgozat.git'
+
+C:\9F\Csiha Roland\9FDolgozat>git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+C:\9F\Csiha Roland\9FDolgozat>git add utasitasok.txt
+
+C:\9F\Csiha Roland\9FDolgozat>git push
+Username for 'https://github.com': csiharoland
+Password for 'https://csiharoland@github.com':
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 368 bytes | 368.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/csiharoland/9FDolgozat.git
+   cfab1fd..a5fb0f5  main -> main
+
+C:\9F\Csiha Roland\9FDolgozat>
