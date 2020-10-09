@@ -1,0 +1,4 @@
+git checkout -- llom nyn‚v
+git diff  llom nyn‚v,git diff HEAD,git diff --staged,git diff --cached
+git reset  llom nyn‚v
+git pull origin master
